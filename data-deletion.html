@@ -1,34 +1,118 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>계정 관련 데이터 삭제 요청 - jmquests</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body class="bg-gray-100">
-    <div class="container mx-auto p-8 bg-white shadow-md rounded-lg mt-10">
-        <h1 class="text-3xl font-bold mb-6 border-b pb-4">계정 관련 데이터 삭제 요청</h1>
-        <div class="text-gray-700 space-y-4">
-            <p>계정 관련 데이터 삭제를 요청하시려면, 다음 이메일 주소로 문의해 주시기 바랍니다. 저희 팀이 신속하게 처리해 드리겠습니다.</p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>찍고먹기 - 계정 데이터 삭제 요청</title>
+        <meta
+            name="description"
+            content="'찍고먹기' 서비스의 계정 및 관련 데이터 삭제를 요청하는 방법을 안내합니다."
+        />
+        <link
+            rel="shortcut icon"
+            href="./assets/logo.png"
+            type="image/x-icon"
+        />
 
-            <h2 class="text-2xl font-semibold mt-6 border-b pb-2">요청 방법</h2>
-            <p>아래 정보를 포함하여 이메일을 보내주시면, 본인 확인 후 데이터 삭제 절차를 진행합니다.</p>
-            <ul class="list-disc list-inside ml-4">
-                <li><strong>가입 시 사용한 이메일 주소:</strong></li>
-                <li><strong>요청 사항:</strong> 계정 데이터 삭제 요청</li>
-            </ul>
+        <link rel="stylesheet" href="./css/tailwind-build.css" />
+        <link rel="stylesheet" href="css/index.css" />
 
-            <h2 class="text-2xl font-semibold mt-6 border-b pb-2">문의처</h2>
-            <p>데이터 삭제 요청 및 관련 문의는 아래 이메일로 연락주시기 바랍니다.</p>
-            <ul class="list-disc list-inside ml-4">
-                <li><strong>이메일:</strong> <a href="mailto:jmquests@gmail.com" class="text-blue-600 hover:underline">jmquests@gmail.com</a></li>
-            </ul>
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+            integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body class="tw-flex tw-min-h-[100vh] tw-flex-col tw-bg-[#fff]">
+        
+        <header class="tw-p-4 tw-px-[10%]">
+            <a href="/" class="tw-flex tw-place-items-center tw-gap-2">
+                <img src="./assets/logo.png" alt="logo" class="tw-w-[50px]">
+                <h1 class="tw-text-2xl tw-font-bold">찍고먹기</h1>
+            </a>
+        </header>
 
-            <p class="mt-8 text-gray-600">요청을 보내주시면, 최대한 빠른 시일 내에 처리 결과를 회신해 드리겠습니다. 일반적으로 영업일 기준 3~5일이 소요될 수 있습니다.</p>
+        <section class="tw-w-full tw-max-w-[100vw] tw-p-6 tw-px-[15%] max-md:tw-px-[5%]">
+            <div class="tw-w-full tw-text-left tw-p-8">
+                <h2 class="tw-text-4xl tw-font-semibold">계정 데이터 삭제 요청</h2>
+                <p class="tw-mt-4 tw-text-lg tw-text-gray-600">
+                    '찍고먹기' 서비스 탈퇴 및 모든 데이터 삭제를 원하시면 아래 절차에 따라 요청해 주세요.
+                </p>
+            </div>
 
-            <p class="mt-4">서비스 이용에 관한 전반적인 내용은 <a href="index.html" class="text-blue-600 hover:underline">홈으로 돌아가기</a>를 참고하시기 바랍니다.</p>
-        </div>
-    </div>
-</body>
+            <div class="tw-mt-8 tw-p-4 tw-space-y-6">
+                <div class="tw-p-6 tw-border tw-rounded-lg">
+                    <h3 class="tw-text-xl tw-font-medium">삭제되는 데이터</h3>
+                    <p class="tw-mt-2 tw-text-gray-700">
+                        계정 삭제 시, 회원님의 계정 정보, 식단 기록, 사진, 통계 등 '찍고먹기' 서비스 내에 저장된 모든 개인 데이터가 영구적으로 삭제되며, 복구할 수 없습니다.
+                    </p>
+                </div>
+                <div class="tw-p-6 tw-border tw-rounded-lg">
+                    <h3 class="tw-text-xl tw-font-medium">요청 방법</h3>
+                    <p class="tw-mt-2 tw-text-gray-700">
+                        데이터 삭제를 원하시는 경우, 아래 정보를 포함하여 고객센터 이메일로 보내주세요. 본인 확인 절차를 거친 후 데이터 삭제를 진행합니다.
+                    </p>
+                    <ul class="tw-list-disc tw-list-inside tw-mt-4 tw-space-y-2">
+                        <li><strong>받는 사람:</strong> <a href="mailto:jmquests@gmail.com" class="tw-text-blue-600 hover:tw-underline">jmquests@gmail.com</a></li>
+                        <li><strong>이메일 제목:</strong> 계정 데이터 삭제 요청</li>
+                        <li><strong>필수 기재 내용:</strong>
+                            <ul class="tw-list-disc tw-list-inside tw-ml-6">
+                                <li>'찍고먹기' 가입 시 사용한 이메일 주소</li>
+                                <li>닉네임</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tw-p-6 tw-border tw-rounded-lg">
+                    <h3 class="tw-text-xl tw-font-medium">처리 절차</h3>
+                    <p class="tw-mt-2 tw-text-gray-700">
+                        요청이 접수되면, 저희 팀에서 본인 확인 후 영업일 기준 3~5일 이내에 데이터 삭제를 처리하고 결과를 회신해 드립니다. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer
+            class="tw-mt-auto tw-flex tw-w-full tw-place-content-around tw-gap-3 tw-p-[5%] tw-px-[10%] 
+                   tw-text-black max-md:tw-flex-col">
+            <div
+                class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-place-items-center tw-gap-6 
+                       max-md:tw-w-full">
+                <img
+                    src="./assets/logo.png"
+                    alt="logo"
+                    srcset=""
+                    class="tw-max-w-[120px]"
+                />
+                <div class="tw-text-center">
+                    &copy; 2025 찍고먹기. 
+                        <br />All Rights Reserved.
+                </div>
+            </div>
+            
+            <div class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-gap-4">
+                <h2 class="tw-text-3xl max-md:tw-text-xl">회사</h2>
+                <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
+                    <a href="about.html" class="footer-link">찍고먹기 소개</a>
+                    <a href="contact.html" class="footer-link">문의하기</a>
+                </div>
+            </div>
+
+            <div class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-gap-4">
+                <h2 class="tw-text-3xl max-md:tw-text-xl">지원</h2>
+                <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
+                    <a href="faq.html" class="footer-link">자주 묻는 질문 (FAQ)</a>
+                    <a href="privacy.html" class="footer-link">개인정보처리방침</a>
+                    <a href="terms.html" class="footer-link">서비스 이용약관</a>
+                    <a href="data-deletion.html" class="footer-link">계정 데이터 삭제요청</a>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>

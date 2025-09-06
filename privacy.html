@@ -1,75 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>개인정보 처리방침 - jmquests</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body class="bg-gray-100">
-    <div class="container mx-auto p-8 bg-white shadow-md rounded-lg mt-10">
-        <h1 class="text-3xl font-bold mb-6 border-b pb-4">개인정보 처리방침</h1>
-        <div class="text-gray-700 space-y-4">
-            <p>jmquests (이하 '회사')는 개인정보보호법 등 관련 법령상의 개인정보보호 규정을 준수하며, 이용자의 개인정보 보호에 최선을 다하고 있습니다. 본 개인정보 처리방침은 이용자가 제공하는 개인정보가 어떠한 용도와 방식으로 이용되고 있으며, 개인정보보호를 위해 어떠한 조치가 취해지고 있는지 알려드립니다.</p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>찍고먹기 - 개인정보처리방침</title>
+        <meta
+            name="description"
+            content="'찍고먹기'의 개인정보처리방침을 안내합니다. 사용자의 소중한 개인정보를 안전하게 보호합니다."
+        />
+        <link
+            rel="shortcut icon"
+            href="./assets/logo.png"
+            type="image/x-icon"
+        />
 
-            <h2 class="text-2xl font-semibold mt-6 border-b pb-2">제1조 (개인정보의 처리 목적)</h2>
-            <p>회사는 다음의 목적을 위하여 개인정보를 처리합니다. 처리하고 있는 개인정보는 다음의 목적 이외의 용도로는 이용되지 않으며, 이용 목적이 변경되는 경우에는 별도의 동의를 받는 등 필요한 조치를 이행할 예정입니다.</p>
-            <ul class="list-disc list-inside ml-4">
-                <li><strong>서비스 제공:</strong> 식단 사진 분석, 영양 정보 제공, 식단 기록 및 관리 등 서비스의 핵심 기능 제공</li>
-                <li><strong>회원 관리:</strong> 회원제 서비스 이용에 따른 본인확인, 개인 식별, 불량회원의 부정 이용 방지와 비인가 사용 방지, 가입 의사 확인</li>
-                <li><strong>서비스 개선 및 신규 개발:</strong> 신규 서비스 개발 및 맞춤 서비스 제공, 통계학적 특성에 따른 서비스 제공 및 광고 게재, 서비스의 유효성 확인, 접속 빈도 파악 또는 회원의 서비스 이용에 대한 통계</li>
-                <li><strong>고객 지원:</strong> 불만처리 등 민원처리, 고지사항 전달</li>
-            </ul>
+        <link rel="stylesheet" href="./css/tailwind-build.css" />
+        <link rel="stylesheet" href="css/index.css" />
 
-            <h2 class="text-2xl font-semibold mt-6 border-b pb-2">제2조 (처리하는 개인정보의 항목)</h2>
-            <p>회사는 서비스 제공을 위해 필요한 최소한의 개인정보를 수집합니다.</p>
-            <ul class="list-disc list-inside ml-4">
-                <li><strong>필수 항목:</strong> 이메일 주소, 비밀번호, 닉네임</li>
-                <li><strong>서비스 이용 과정에서 자동 생성 및 수집될 수 있는 정보:</strong> 서비스 이용 기록, 접속 로그, 쿠키, 접속 IP 정보, 기기 정보(OS, 기기 모델명)</li>
-                <li><strong>서비스 이용 과정에서 이용자가 직접 입력하거나 업로드하는 정보:</strong> 식단 사진, 메모, 체중, 신장 등 건강 관련 정보</li>
-            </ul>
-            <p class="mt-2">※ 민감한 개인정보(건강 정보 등)에 대해서는 별도의 동의를 받아 처리하며, 동의하지 않으셔도 서비스의 기본 기능 이용에는 제한이 없습니다.</p>
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+            integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body class="tw-flex tw-min-h-[100vh] tw-flex-col tw-bg-[#fff]">
+        
+        <header class="tw-p-4 tw-px-[10%]">
+            <a href="/" class="tw-flex tw-place-items-center tw-gap-2">
+                <img src="./assets/logo.png" alt="logo" class="tw-w-[50px]">
+                <h1 class="tw-text-2xl tw-font-bold">찍고먹기</h1>
+            </a>
+        </header>
 
-            <h2 class="text-2xl font-semibold mt-6 border-b pb-2">제3조 (개인정보의 처리 및 보유 기간)</h2>
-            <p>회사는 법령에 따른 개인정보 보유·이용기간 또는 정보주체로부터 개인정보를 수집 시에 동의받은 개인정보 보유·이용기간 내에서 개인정보를 처리·보유합니다.</p>
-            <p>원칙적으로, 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다. 단, 회원탈퇴 시 30일간의 유예 기간을 두어 재가입 방지 및 데이터 복구를 지원하며, 관계법령의 규정에 의하여 보존할 필요가 있는 경우 회사는 아래와 같이 관계법령에서 정한 일정한 기간 동안 회원정보를 보관합니다.</p>
-            <ul class="list-disc list-inside ml-4">
-                <li><strong>통신비밀보호법:</strong> 로그인 기록 (3개월)</li>
-                <li><strong>전자상거래 등에서의 소비자보호에 관한 법률:</strong> 계약 또는 청약철회 등에 관한 기록, 대금결제 및 재화 등의 공급에 관한 기록 (5년), 소비자의 불만 또는 분쟁처리에 관한 기록 (3년)</li>
-            </ul>
+        <section class="tw-w-full tw-max-w-[100vw] tw-p-6 tw-px-[15%] max-md:tw-px-[5%]">
+            <div class="tw-w-full tw-text-left tw-p-8">
+                <h2 class="tw-text-4xl tw-font-semibold">개인정보처리방침</h2>
+                <p class="tw-mt-4 tw-text-sm tw-text-gray-500">시행일자: 2025년 9월 7일</p>
+            </div>
 
-            <h2 class="text-2xl font-semibold mt-6 border-b pb-2">제4조 (개인정보의 제3자 제공)</h2>
-            <p>회사는 이용자의 개인정보를 원칙적으로 외부에 제공하지 않습니다. 다만, 아래의 경우에는 예외로 합니다.</p>
-            <ul class="list-disc list-inside ml-4">
-                <li>이용자들이 사전에 동의한 경우</li>
-                <li>법령의 규정에 의거하거나, 수사 목적으로 법령에 정해진 절차와 방법에 따라 수사기관의 요구가 있는 경우</li>
-            </ul>
+            <div class="tw-mt-8 tw-space-y-8 tw-p-4 tw-text-gray-800">
+                <p>
+                    주식회사 찍고먹기(이하 '회사')는 이용자의 개인정보를 매우 중요하게 생각하며, 「개인정보 보호법」 등 관련 법령을 준수하고 있습니다. 회사는 본 개인정보처리방침을 통해 이용자가 제공하는 개인정보가 어떠한 용도와 방식으로 이용되고 있으며, 개인정보보호를 위해 어떠한 조치가 취해지고 있는지 알려드립니다.
+                </p>
 
-            <h2 class="text-2xl font-semibold mt-6 border-b pb-2">제5조 (이용자의 권리·의무 및 행사방법)</h2>
-            <p>이용자는 언제든지 등록되어 있는 자신의 개인정보를 조회하거나 수정할 수 있으며 가입해지를 요청할 수도 있습니다. 개인정보 조회, 수정을 위해서는 '개인정보변경'(또는 '회원정보수정' 등)을, 가입해지(동의철회)를 위해서는 "회원탈퇴"를 클릭하여 본인 확인 절차를 거치신 후 직접 열람, 정정 또는 탈퇴가 가능합니다.</p>
+                <div>
+                    <h3 class="tw-text-xl tw-font-semibold tw-mb-2">제1조 (개인정보의 처리 목적)</h3>
+                    <p>회사는 다음의 목적을 위하여 개인정보를 처리합니다. 처리하고 있는 개인정보는 다음의 목적 이외의 용도로는 이용되지 않으며, 이용 목적이 변경되는 경우에는 별도의 동의를 받는 등 필요한 조치를 이행할 예정입니다.</p>
+                    <ul class="tw-list-disc tw-list-inside tw-mt-2 tw-space-y-1">
+                        <li><strong>서비스 제공:</strong> 식단 사진 분석, 영양 정보 제공, 식단 기록 및 관리 등 서비스의 핵심 기능 제공</li>
+                        <li><strong>회원 관리:</strong> 회원제 서비스 이용에 따른 본인확인, 개인 식별, 불량회원의 부정 이용 방지와 비인가 사용 방지, 가입 의사 확인</li>
+                        <li><strong>서비스 개선 및 신규 개발:</strong> 신규 서비스 개발 및 맞춤 서비스 제공, 통계학적 특성에 따른 서비스 제공, 서비스의 유효성 확인, 접속 빈도 파악 또는 회원의 서비스 이용에 대한 통계</li>
+                        <li><strong>고객 지원:</strong> 불만처리 등 민원처리, 고지사항 전달</li>
+                    </ul>
+                </div>
 
-            <h2 class="text-2xl font-semibold mt-6 border-b pb-2">제6조 (개인정보의 안전성 확보 조치)</h2>
-            <p>회사는 이용자의 개인정보를 안전하게 관리하기 위하여 최선을 다하며, 정보통신망법 및 개인정보보호법에서 요구하는 수준 이상으로 개인정보를 안전하게 관리하고 있습니다.</p>
-            <ul class="list-disc list-inside ml-4">
-                <li><strong>관리적 조치:</strong> 내부관리계획 수립·시행, 정기적 직원 교육 등</li>
-                <li><strong>기술적 조치:</strong> 개인정보처리시스템 등의 접근권한 관리, 접근통제시스템 설치, 고유식별정보 등의 암호화, 보안프로그램 설치</li>
-                <li><strong>물리적 조치:</strong> 전산실, 자료보관실 등의 접근통제</li>
-            </ul>
+                <div>
+                    <h3 class="tw-text-xl tw-font-semibold tw-mb-2">제2조 (처리하는 개인정보의 항목)</h3>
+                    <p>회사는 서비스 제공을 위해 필요한 최소한의 개인정보를 수집합니다.</p>
+                    <ul class="tw-list-disc tw-list-inside tw-mt-2 tw-space-y-1">
+                        <li><strong>필수 항목:</strong> 이메일 주소, 비밀번호, 닉네임</li>
+                        <li><strong>서비스 이용 과정에서 자동 생성 및 수집될 수 있는 정보:</strong> 서비스 이용 기록, 접속 로그, 쿠키, 접속 IP 정보, 기기 정보(OS, 기기 모델명)</li>
+                        <li><strong>서비스 이용 과정에서 이용자가 직접 입력하거나 업로드하는 정보:</strong> 식단 사진, 메모, 체중, 신장 등 건강 관련 정보</li>
+                    </ul>
+                    <p class="tw-mt-2 tw-text-sm tw-text-gray-600">※ 민감한 개인정보(건강 정보 등)에 대해서는 별도의 동의를 받아 처리하며, 동의하지 않으셔도 서비스의 기본 기능 이용에는 제한이 없습니다.</p>
+                </div>
 
-            <h2 class="text-2xl font-semibold mt-6 border-b pb-2">제7조 (개인정보 보호책임자)</h2>
-            <p>회사는 개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한 정보주체의 불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.</p>
-            <ul class="list-disc list-inside ml-4">
-                <li><strong>개인정보 보호책임자:</strong> 정석구</li>
-                <li><strong>직책:</strong> 대표</li>
-                <li><strong>연락처:</strong> jmquests@gmail.com</li>
-            </ul>
+                <div>
+                    <h3 class="tw-text-xl tw-font-semibold tw-mb-2">제3조 (개인정보의 처리 및 보유 기간)</h3>
+                    <p>회사는 법령에 따른 개인정보 보유·이용기간 또는 정보주체로부터 개인정보를 수집 시에 동의받은 개인정보 보유·이용기간 내에서 개인정보를 처리·보유합니다. 원칙적으로, 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다. 단, 관계법령의 규정에 의하여 보존할 필요가 있는 경우, 회사는 관계법령에서 정한 일정한 기간 동안 회원정보를 보관합니다.</p>
+                </div>
 
-            <h2 class="text-2xl font-semibold mt-6 border-b pb-2">제8조 (개인정보 처리방침 변경)</h2>
-            <p>이 개인정보처리방침은 시행일로부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할 것입니다.</p>
+                <div>
+                    <h3 class="tw-text-xl tw-font-semibold tw-mb-2">제4조 (이용자의 권리·의무 및 행사방법)</h3>
+                    <p>이용자는 언제든지 등록되어 있는 자신의 개인정보를 조회하거나 수정할 수 있으며, 가입 해지를 요청할 수 있습니다. 서비스 내 '설정' 메뉴 또는 고객센터(<a href="mailto:jmquests@gmail.com" class="tw-text-blue-600 hover:tw-underline">jmquests@gmail.com</a>)를 통해 본인 확인 절차를 거치신 후 직접 열람, 정정 또는 탈퇴가 가능합니다.</p>
+                </div>
 
-            <p class="mt-8 text-gray-600"><strong>공고일자:</strong> 2025년 8월 29일</p>
-            <p class="text-gray-600"><strong>시행일자:</strong> 2025년 8월 29일</p>
-        </div>
-    </div>
-</body>
+                <div>
+                    <h3 class="tw-text-xl tw-font-semibold tw-mb-2">제5조 (개인정보 보호책임자)</h3>
+                    <p>회사는 개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한 정보주체의 불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.</p>
+                    <ul class="tw-list-disc tw-list-inside tw-mt-2">
+                        <li><strong>이름:</strong> 정석구</li>
+                        <li><strong>이메일:</strong> <a href="mailto:jmquests@gmail.com" class="tw-text-blue-600 hover:tw-underline">jmquests@gmail.com</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="tw-text-xl tw-font-semibold tw-mb-2">제6조 (개인정보 처리방침 변경)</h3>
+                    <p>본 개인정보처리방침은 시행일로부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할 것입니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer
+            class="tw-mt-auto tw-flex tw-w-full tw-place-content-around tw-gap-3 tw-p-[5%] tw-px-[10%] 
+                   tw-text-black max-md:tw-flex-col">
+            <div
+                class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-place-items-center tw-gap-6 
+                       max-md:tw-w-full">
+                <img
+                    src="./assets/logo.png"
+                    alt="logo"
+                    srcset=""
+                    class="tw-max-w-[120px]"
+                />
+                <div class="tw-text-center">
+                    &copy; 2025 찍고먹기. 
+                        <br />All Rights Reserved.
+                </div>
+            </div>
+            
+            <div class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-gap-4">
+                <h2 class="tw-text-3xl max-md:tw-text-xl">회사</h2>
+                <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
+                    <a href="about.html" class="footer-link">찍고먹기 소개</a>
+                    <a href="contact.html" class="footer-link">문의하기</a>
+                </div>
+            </div>
+
+            <div class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-gap-4">
+                <h2 class="tw-text-3xl max-md:tw-text-xl">지원</h2>
+                <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
+                    <a href="faq.html" class="footer-link">자주 묻는 질문 (FAQ)</a>
+                    <a href="privacy.html" class="footer-link">개인정보처리방침</a>
+                    <a href="terms.html" class="footer-link">서비스 이용약관</a>
+                    <a href="data-deletion.html" class="footer-link">계정 데이터 삭제요청</a>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
