@@ -58,21 +58,21 @@ window.addEventListener("resize", responsive)
 
 gsap.registerPlugin(ScrollTrigger)
 
-gsap.to(".reveal-hero-text", {
+gsap.set(".reveal-hero-text", {
     opacity: 0,
     y: "100%",
 })
 
-gsap.to(".reveal-hero-img", {
+gsap.set(".reveal-hero-img", {
     opacity: 0,
     y: "100%",
 })
 
-gsap.to("#hero-img-bg", {
+gsap.set("#hero-img-bg", {
     scale: 0
 })
 
-gsap.to(".reveal-up", {
+gsap.set(".reveal-up", {
     opacity: 0,
     y: "100%",
 })
