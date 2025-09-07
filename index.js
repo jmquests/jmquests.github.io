@@ -92,6 +92,7 @@ window.addEventListener("load", () => {
     gsap.to(".reveal-hero-img", {
         opacity: 1,
         y: "0%",
+        delay: 2.5 // Added delay
     })
 
     gsap.to("#hero-img-bg", {
