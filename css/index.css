@@ -59,6 +59,10 @@ header > .collapsible-header{
     color: var(--primary-text-color);
 }
 
+.tw-text-section-dark {
+    color: #404040;
+}
+
 .opacity-0{
     opacity: 0 !important;
 }
@@ -197,5 +201,3 @@ header > .collapsible-header{
     }
     
 }
-
-
